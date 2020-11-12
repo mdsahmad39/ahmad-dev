@@ -20,7 +20,7 @@ html {
 }
 
 
-@media all and (max-width: 699px) and (min-width: 480px), (min-width: 1280px) {
+@media all and (max-width: 699px) and (min-width: 480px), (min-width: 1450px) {
 body {
   color: #2F4F4F;
   padding: 0;
