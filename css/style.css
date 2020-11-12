@@ -12,6 +12,12 @@ COLOR PALETTE
 /* Global styles
 --------------------------------------- */
 
+
+@viewport{
+    zoom: 1.0;
+    width: device-width;
+}
+
 html {
   box-sizing: border-box;
 }
