@@ -19,8 +19,12 @@ html {
   box-sizing: inherit;
 }
 
+/* body{overflow:hidden /*use it only if needed, otherwise remove it */} */
+@media(max-width:768px){
+body{overflow: auto; height: 100%; font-size: 81.44% /* change if needed */;}
+}
 
-@media all and (max-width: 699px) and (min-width: 480px), (min-width: 1450px) {
+
 body {
   color: #2F4F4F;
   padding: 0;
@@ -28,7 +32,6 @@ body {
   font-family: 'Montserrat', sans-serif;
   font-size: 15px;
   line-height: 1.58;
-}
 }
 
 img {
