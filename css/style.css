@@ -45,9 +45,6 @@ body {
 }
 
 @media screen and (min-width:750px){
-  header, footer {
-    text-align: center;
-  }
   .project-item img {
     float: left;
     margin-right: 20px;
