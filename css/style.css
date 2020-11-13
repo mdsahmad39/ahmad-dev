@@ -45,14 +45,13 @@ body {
 }
 
 @media screen and (min-width:750px){
+  img {
+    width:400px;
+  }
   .project-item img {
     float: left;
     margin-right: 20px;
   }
-}
-
-img {
-  width:400px;
 }
 
 img.rounded-corners {
