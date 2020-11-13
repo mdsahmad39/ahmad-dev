@@ -194,10 +194,15 @@ h1, h2 {
 /* Education
 ---------------------------------------- */
 .education {
-  background: #F0E68C;
-
+  background-image: url(../images/education-pencils.jpg);
+  background-size: cover;
+  background-position: top right;
+  padding-bottom: 100px;
 }
 
+.education p {
+  width: 60%;
+}
 
 /* Footer
 -------------------------------------------*/
