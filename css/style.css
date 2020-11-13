@@ -29,9 +29,19 @@ body {
   line-height: 1.58;
 }
 
+@media screen and (max-width:650px) {
+  img {
+    width: 400px;
+    margin-bottom: 12px;
+  }
+}
+
 img {
   width:400px;
-  edges:round;
+}
+
+img.rounded-corners {
+  border-radius: 20px;
 }
 
 a {
