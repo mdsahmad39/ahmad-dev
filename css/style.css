@@ -29,10 +29,31 @@ body {
   line-height: 1.58;
 }
 
-@media screen and (max-width:650px) {
+@media screen and (max-width:750px) {
+  h1 {
+    font-size: 75px;
+  }
+  h1, h2 {
+    line-height: 1;
+  }
   img {
     width: 400px;
     margin-bottom: 12px;
+  }
+}
+
+@media screen and (min-width:749px){
+  header, footer {
+    text-align: center;
+  }
+  .project-item img {
+    float: left;
+    margin-right: 20px;
+  }
+
+  .social-container {
+    display: flex;
+    justify-content: center;
   }
 }
 
