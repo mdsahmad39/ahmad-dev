@@ -31,7 +31,9 @@ body {
 
 @media screen and (max-width:749px) {
   h1 {
-    font-size: 75px;
+    font-size: 60px;
+    line-height: 0.9;
+    margin-bottom: 20px;
   }
   h1, h2 {
     line-height: 1;
@@ -49,11 +51,6 @@ body {
   .project-item img {
     float: left;
     margin-right: 20px;
-  }
-
-  .social-container {
-    display: flex;
-    justify-content: center;
   }
 }
 
