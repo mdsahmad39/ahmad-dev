@@ -39,20 +39,20 @@ body {
     line-height: 1;
   }
   img {
-    width: 360px;
     margin-bottom: 12px;
     vertical-align: middle;
   }
 }
 
 @media screen and (min-width:750px){
-  img {
-    width:400px;
-  }
   .project-item img {
     float: left;
     margin-right: 20px;
   }
+}
+
+img {
+  width:400px;
 }
 
 img.rounded-corners {
