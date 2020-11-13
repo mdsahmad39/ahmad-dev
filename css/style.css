@@ -29,7 +29,7 @@ body {
   line-height: 1.58;
 }
 
-@media screen and (max-width:750px) {
+@media screen and (max-width:749px) {
   h1 {
     font-size: 75px;
   }
@@ -42,7 +42,7 @@ body {
   }
 }
 
-@media screen and (min-width:749px){
+@media screen and (min-width:750px){
   header, footer {
     text-align: center;
   }
