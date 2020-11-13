@@ -41,6 +41,7 @@ body {
   img {
     width: 360px;
     margin-bottom: 12px;
+    vertical-align: middle;
   }
 }
 
