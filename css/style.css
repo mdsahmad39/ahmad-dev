@@ -219,6 +219,7 @@ h1, h2 {
 /* Education
 ---------------------------------------- */
 .education {
+  background-color: #f5bb02;
   background-image: url(../images/education-pencils.jpg);
   background-size: cover;
   background-position: top right;
