@@ -29,7 +29,7 @@ body {
   line-height: 1.58;
 }
 
-@media screen and (max-width:749px) {
+@media screen and (max-width:786px) {
   h1 {
     font-size: 60px;
     line-height: 0.9;
@@ -44,7 +44,7 @@ body {
   }
 }
 
-@media screen and (min-width:750px){
+@media screen and (min-width:787px){
   .project-item img {
     float: left;
     margin-right: 20px;
@@ -107,11 +107,169 @@ a {
 
 /* Profile
 ---------------------------------------- */
+
+
 header {
-  background: #191970;
-  color: #F5F5F5;
-  padding: 10px;
+      width: 100%;
+      height: 100vh;
+      background: url(../images/Black_HDW.jpg) no-repeat 50% 50%;
+      background-size: cover;
 }
+
+.logo {
+      line-height: 60px;
+      position: fixed;
+      float: left;
+      margin: 16px 46px;
+      color: #fff;
+      font-weight: bold;
+      font-size: 20px;
+      letter-spacing: 2px;
+}
+
+nav {
+      position: fixed;
+      width: 100%;
+      line-height: 60px;
+      z-index: 9999;
+}
+
+nav ul {
+      line-height: 60px;
+      list-style: none;
+      background: rgba(0, 0, 0, 0);
+      overflow: hidden;
+      color: #fff;
+      padding: 0;
+      text-align: right;
+      margin: 0;
+      padding-right: 40px;
+      transition: 1s;
+      /* background: #000000 */
+}
+
+nav.black ul {
+      background: #000000;
+}
+
+nav ul li {
+      display: inline-block;
+      padding: 16px 40px;;
+}
+
+nav ul li a {
+      text-decoration: none;
+      color: #fff;
+      font-size: 16px;
+}
+
+.menu-icon {
+      line-height: 60px;
+      width: 100%;
+      background: #000;
+      text-align: right;
+      box-sizing: border-box;
+      padding: 15px 24px;
+      cursor: pointer;
+      color: #fff;
+      display: none;
+}
+
+@media(max-width: 786px) {
+
+      .logo {
+            position: fixed;
+            top: 0;
+            margin-top: 16px;
+      }
+
+      nav ul {
+            max-height: 0px;
+            background: #000;
+      }
+
+      nav.black ul {
+            background-color: #000000;
+      }
+
+      .showing {
+            max-height: 34em;
+      }
+
+      nav ul li {
+            box-sizing: border-box;
+            width: 100%;
+            padding: 24px;
+            text-align: center;
+      }
+
+      .menu-icon {
+            display: block;
+      }
+
+}
+
+.circular--square {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+
+.center-text {
+  left: 0;
+  position: absolute;
+  text-align: center;
+  top: 18%;
+  width: 100%;
+  color: white;
+  font-size: 30px;
+}
+
+.center-text #id-name {
+  font-size: 70px;
+  line-height: 1em;
+}
+
+.center-text #job-roles {
+  font-family: 'Caveat', cursive;
+  font-size: 50px;
+  line-height: 10px;
+}
+
+@media(max-width: 786px) {
+
+  .circular--square {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 50%;
+  }
+
+  .center-text {
+    left: 0;
+    position: absolute;
+    text-align: center;
+    top: 18%;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+  }
+
+  .center-text #id-name {
+    font-size: 40px;
+  }
+
+  .center-text #job-roles {
+    font-family: 'Caveat', cursive;
+    font-size: 30px;
+    line-height: 1.5em;
+  }
+}
+
 
 h1 {
   font-size: 100px;
@@ -129,6 +287,19 @@ h2 {
 h1, h2 {
   font-family: 'Caveat', cursive;
   margin: 0;
+}
+
+.image-blurred-edge {
+  background-image: url(../images/ahmad_log.jpg);
+  float: right;
+  box-shadow: 25px 25px 50px 0 white inset, -25px -25px 50px 0 white inset;
+  width: 300px;
+  height: 300px;
+}
+
+.rounded-corners-right {
+  border-radius: 20px;
+  float: right;
 }
 
 .item-details h3 + p {
