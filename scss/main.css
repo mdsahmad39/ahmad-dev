@@ -1,12 +1,12 @@
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
 .social-container {
-  background-color: #CACBCE;
+  background-color: #323434;
   margin: 0;
   text-align: center; }
 
 .social-container h2 {
   padding: 0 0 10px 0;
-  color: black; }
+  color: white; }
 
 .social-icons {
   padding: 0;

@@ -236,7 +236,7 @@ nav ul li a {
 .center-text #job-roles {
   font-family: 'Caveat', cursive;
   font-size: 50px;
-  line-height: 10px;
+  line-height: 17px;
 }
 
 @media(max-width: 786px) {
@@ -268,6 +268,67 @@ nav ul li a {
     font-size: 30px;
     line-height: 1.5em;
   }
+}
+
+.social-icons-header a {
+  color:#fff;
+  text-align:center;
+  text-decoration:none;
+  font-family:fontawesome;
+  position: relative;
+  display: inline-block;
+  width:40px;
+  height:28px;
+  padding-top:12px;
+  margin:0 2px;
+}
+
+/* pop-up text */
+
+.social-icons-header a span {
+  color:#000000;
+  position:absolute;
+  font-family:sans-serif;
+  bottom:0;
+  left:-25px;
+  right:-25px;
+  padding:5px 7px;
+  z-index:-1;
+  font-size:14px;
+  border-radius:2px;
+  visibility:hidden;
+  opacity:0;
+}
+
+/* pop-up text arrow */
+
+.social-icons-header a span:before {
+  content:'';
+  width: 0;
+  height: 0;
+  position:absolute;
+  bottom:-5px;
+  left:40px;
+}
+
+/* text pops up when icon is in hover state */
+
+.social-icons-header a:hover span {
+  bottom:50px;
+  visibility:visible;
+  opacity:1;
+}
+
+/* font awesome icons */
+
+.social-icons-header a:nth-of-type(1):before {
+content:'\f08c';
+}
+.social-icons-header a:nth-of-type(2):before {
+content:'\f092';
+}
+.social-icons-header a:nth-of-type(3):before {
+content:'\f003';
 }
 
 
