@@ -373,6 +373,10 @@ h1, h2 {
 
 /* Projects
 ---------------------------------------- */
+
+#projects01 {
+
+}
 .projects {
   background: #FFFAFA;
 }
@@ -464,6 +468,10 @@ h1, h2 {
 
 /* Footer
 -------------------------------------------*/
+#contact-me {
+
+}
+
 .footer-pad {
   background: #696969;
   color: #F5F5F5;
