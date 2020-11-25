@@ -39,8 +39,9 @@ body {
     line-height: 1;
   }
   img {
-    margin-bottom: 12px;
+    margin: 15px;
     vertical-align: middle;
+    
   }
 }
 
