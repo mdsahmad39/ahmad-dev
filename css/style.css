@@ -45,10 +45,13 @@ body {
   }
 }
 
-@media screen and (min-width:787px){
+@media screen and (max-width:786px){
   .project-item img {
+    text-align: center;
+    width: 270px;
     float: left;
     margin-right: 20px;
+    margin-left: 10px;
   }
 }
 
@@ -407,6 +410,7 @@ h1, h2 {
 .project-item img {
   float: left;
   margin-right: 20px;
+  margin-left: 10px;
   box-shadow: 5px 5px 10px black;
 }
 .project-item h3 {
