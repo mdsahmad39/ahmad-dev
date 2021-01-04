@@ -411,7 +411,7 @@ h1, h2 {
   float: left;
   margin-right: 20px;
   margin-left: 10px;
-  box-shadow: 5px 5px 10px black;
+  box-shadow: 0 3px 9px 0 rgba(33, 33, 33, 11);
 }
 .project-item h3 {
   margin-top: 0;
@@ -455,6 +455,23 @@ h1, h2 {
     -moz-box-shadow: 0 21px 6px -12px rgba(0, 0, 0, 0.5);
     box-shadow: 0 21px 6px -12px rgba(0, 0, 0, 0.5);
     z-index: 10;
+}
+
+@media screen and (max-width:836px){
+  .project-item img {
+    text-align: center;
+    width: 95% !important;
+    margin-bottom: 30px;
+  }
+  .content-wrap {
+    width: 90% !important;
+  }
+}
+
+@media (max-width:350px){
+  .content-wrap {
+    width: 95% !important;
+  }
 }
 
 /* Education
