@@ -412,6 +412,7 @@ h1, h2 {
   margin-right: 20px;
   margin-left: 10px;
   box-shadow: 0 3px 9px 0 rgba(33, 33, 33, 11);
+  border-radius: 5px;
 }
 .project-item h3 {
   margin-top: 0;
